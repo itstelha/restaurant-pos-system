@@ -4,6 +4,6 @@ import { Controller, Get } from '@nestjs/common';
 export class HealthCheckController {
   @Get('/')
   async healthCheck(): Promise<string> {
-    return 'I am up!';
+    return 'I am up and runing!';
   }
 }
