@@ -4,6 +4,6 @@ import { Injectable } from '@nestjs/common';
 export class AppService {
   getHello(): string {
     const date = new Date().toLocaleString();
-    return `Hello World! Today is ${date} and day is Wednesday`;
+    return `Hello World! Today is ${date} and day is Wednesday and tommorow is thursday`;
   }
 }
