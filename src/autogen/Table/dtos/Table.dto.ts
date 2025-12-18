@@ -5,9 +5,9 @@ import { ApiProperty } from '@nestjs/swagger';
 
 export class TableCreate {
   @ApiProperty()
-  number: number;
+  number: string;
   @ApiProperty()
-  capacity: number;
+  capacity: string;
   @ApiProperty()
   status: string;
 }
@@ -16,9 +16,9 @@ export class Table {
   @ApiProperty()
   id: number;
   @ApiProperty()
-  number: number;
+  number: string;
   @ApiProperty()
-  capacity: number;
+  capacity: string;
   @ApiProperty()
   status: string;
 }

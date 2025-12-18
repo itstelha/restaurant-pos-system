@@ -9,7 +9,7 @@ export class MenuCreate {
   @ApiProperty()
   description: string;
   @ApiProperty()
-  price: number;
+  price: string;
   @ApiProperty()
   category: string;
 }
@@ -22,7 +22,7 @@ export class Menu {
   @ApiProperty()
   description: string;
   @ApiProperty()
-  price: number;
+  price: string;
   @ApiProperty()
   category: string;
 }

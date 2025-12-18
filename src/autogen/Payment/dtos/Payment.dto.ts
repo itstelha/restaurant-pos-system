@@ -7,7 +7,7 @@ export class PaymentCreate {
   @ApiProperty()
   order_id: number;
   @ApiProperty()
-  amount: number;
+  amount: string;
   @ApiProperty()
   payment_date: Date;
 }
@@ -18,7 +18,7 @@ export class Payment {
   @ApiProperty()
   order_id: number;
   @ApiProperty()
-  amount: number;
+  amount: string;
   @ApiProperty()
   payment_date: Date;
 }
