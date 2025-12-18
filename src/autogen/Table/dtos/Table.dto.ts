@@ -7,7 +7,7 @@ export class TableCreate {
   @ApiProperty()
   number: number;
   @ApiProperty()
-  capacity: string;
+  capacity: number;
   @ApiProperty()
   status: string;
 }
@@ -18,7 +18,7 @@ export class Table {
   @ApiProperty()
   number: number;
   @ApiProperty()
-  capacity: string;
+  capacity: number;
   @ApiProperty()
   status: string;
 }
