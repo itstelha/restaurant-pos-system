@@ -146,5 +146,10 @@
       "type": "OneToOne"
     }
   ],
-  "_removedEntities": []
+  "_removedEntities": [],
+  "version": 2,
+  "stackId": "servicestack-80b47b32",
+  "buildType": "Shared",
+  "serviceId": 551,
+  "serviceName": "restaurant-pos-system"
 }
