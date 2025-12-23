@@ -24,7 +24,7 @@ __decorate([
 ], MenuCreate.prototype, "description", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)(),
-    __metadata("design:type", String)
+    __metadata("design:type", Number)
 ], MenuCreate.prototype, "price", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)(),
@@ -48,7 +48,7 @@ __decorate([
 ], Menu.prototype, "description", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)(),
-    __metadata("design:type", String)
+    __metadata("design:type", Number)
 ], Menu.prototype, "price", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)(),

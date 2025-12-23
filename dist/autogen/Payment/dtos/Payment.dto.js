@@ -20,7 +20,7 @@ __decorate([
 ], PaymentCreate.prototype, "order_id", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)(),
-    __metadata("design:type", String)
+    __metadata("design:type", Number)
 ], PaymentCreate.prototype, "amount", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)(),
@@ -40,7 +40,7 @@ __decorate([
 ], Payment.prototype, "order_id", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)(),
-    __metadata("design:type", String)
+    __metadata("design:type", Number)
 ], Payment.prototype, "amount", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)(),

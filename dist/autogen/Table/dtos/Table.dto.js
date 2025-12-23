@@ -16,11 +16,11 @@ class TableCreate {
 exports.TableCreate = TableCreate;
 __decorate([
     (0, swagger_1.ApiProperty)(),
-    __metadata("design:type", String)
+    __metadata("design:type", Number)
 ], TableCreate.prototype, "number", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)(),
-    __metadata("design:type", String)
+    __metadata("design:type", Number)
 ], TableCreate.prototype, "capacity", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)(),
@@ -36,11 +36,11 @@ __decorate([
 ], Table.prototype, "id", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)(),
-    __metadata("design:type", String)
+    __metadata("design:type", Number)
 ], Table.prototype, "number", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)(),
-    __metadata("design:type", String)
+    __metadata("design:type", Number)
 ], Table.prototype, "capacity", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)(),
